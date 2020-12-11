@@ -19,3 +19,8 @@ unzip ./chromedriver_linux64.zip
 ```
 
 >:warning: If you don't have `unzip`, run `dnf -y install unzip`.
+
+## 4.Adding *chromedriver* to your `$PATH`
+```
+cp chromedriver /usr/local/bin/
+```
