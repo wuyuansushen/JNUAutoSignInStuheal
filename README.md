@@ -12,3 +12,10 @@ dnf -y install ./google-chrome-stable_current_x86_64.rpm
 ```
 python3 -m pip install selenium
 ```
+## 3.Extract *chromedriver*
+
+```
+unzip ./chromedriver_linux64.zip
+```
+
+>:warning: If you don't have `unzip`, run `dnf -y install unzip`.
