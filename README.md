@@ -40,7 +40,7 @@ cp -r JNUAutoSignInStuheal /usr/local/bin/
 ## 7.Add to `crontab`
 
 ```
-0 4 * * * python3 /usr/local/bin/JNUAutoSignInStuheal/signIn_stuhealth.py
+(crontab -l;echo "0 4 * * * python3 /usr/local/bin/JNUAutoSignInStuheal/signIn_stuhealth.py") | crontab
 ```
 
 >:warning: If you don't have `crontab`, run `dnf -y install cronie`.
