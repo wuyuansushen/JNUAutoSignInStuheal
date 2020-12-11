@@ -24,3 +24,9 @@ unzip ./chromedriver_linux64.zip
 ```
 cp chromedriver /usr/local/bin/
 ```
+
+## 5.Add Permission
+
+```
+chmod u+x signIn_stuhealth.py
+```
