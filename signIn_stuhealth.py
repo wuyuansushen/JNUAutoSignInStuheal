@@ -42,7 +42,7 @@ time.sleep(4)
 
 check=driver.find_element_by_tag_name("label")
 
-with open("/usr/local/bin/JNUAutoSignIn/logCheck",'a') as fLog:
+with open("/usr/local/bin/JNUAutoSignInStuheal/logCheck",'a') as fLog:
     print(time.asctime(time.localtime()),check.text,file=fLog)
 
 driver.close()
