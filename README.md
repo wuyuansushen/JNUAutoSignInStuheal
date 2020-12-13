@@ -35,6 +35,7 @@ chmod u+x signIn_stuhealth.py
 ## 6.Move to */usr/local/bin/*
 
 ```
+cd ..
 cp -r JNUAutoSignInStuheal /usr/local/bin/
 ```
 
