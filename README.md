@@ -4,6 +4,7 @@ An auto student heath Sign in tools of JNU universary
 ## 1.Install *google-chrome-stable_current_x86_64.rpm*
 
 ```
+cd JNUAutoSignInStuheal/
 dnf -y install ./google-chrome-stable_current_x86_64.rpm
 ```
 
