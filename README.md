@@ -23,7 +23,7 @@ unzip ./chromedriver_linux64.zip
 
 ## 4.Adding *chromedriver* to your `$PATH`
 ```
-cp chromedriver /usr/bin/
+cp chromedriver /usr/local/bin/
 ```
 
 ## 5.Add Permission
