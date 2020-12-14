@@ -15,7 +15,7 @@ def setAddressID(broser,elementID,addressID):
 noGUI=webdriver.ChromeOptions() #Headless
 noGUI.add_argument("headless")
 noGUI.add_argument("--no-sandbox")
-driver=webdriver.Chrome(options=noGUI)
+driver=webdriver.Chrome(executable_path='/usr/local/bin/chromedriver',options=noGUI)
 
 driver.get("https://stuhealth.jnu.edu.cn/")
 accountId=driver.find_element_by_id("zh")
