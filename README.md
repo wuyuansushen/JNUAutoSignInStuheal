@@ -39,7 +39,7 @@ cd ..
 cp -r JNUAutoSignInStuheal /usr/local/bin/
 ```
 
-## 7.Add to `crontab`
+## 7. (Optional) Add to `crontab`
 
 ```
 (crontab -l;echo "0 4 * * * python3 /usr/local/bin/JNUAutoSignInStuheal/signIn_stuhealth.py") | crontab
