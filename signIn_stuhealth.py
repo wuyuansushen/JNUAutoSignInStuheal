@@ -26,11 +26,15 @@ clickYes=driver.find_element_by_tag_name("button")
 clickYes.click()
 time.sleep(4)
 
-setAddressID(driver,"selectProvince"," ") #Your Province ID
+driver.find_element_by_id('1jtzzszgj').click()
 
-setAddressID(driver,"selectCity"," ")  #Your City ID
+setAddressID(driver,"selectProvinceJtzz"," ") #Your Province ID
 
-setAddressID(driver,"selectDistrict"," ")  #Your District ID
+setAddressID(driver,"selectCityJtzz"," ")  #Your City ID
+
+setAddressID(driver,"selectDistrictJtzz"," ")  #Your District ID
+
+driver.find_element_by_id('jtxxdz').send_keys(" ") #Your home location details
 
 checkReal=driver.find_element_by_id("10000")
 checkReal.click()
