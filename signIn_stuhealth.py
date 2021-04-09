@@ -19,7 +19,7 @@ elem=driver.find_element_by_id("passw")
 elem.send_keys("")      #Your password
 clickYes=driver.find_element_by_tag_name("button")
 clickYes.click()
-time.sleep(8)
+time.sleep(10)
 
 countryInOut=driver.find_element_by_xpath("//*[@class='form-group'][13]/div[1]/span[1]")
 countryInOut.click()
@@ -41,7 +41,7 @@ checkReal.click()
 submitHealth=driver.find_element_by_id("tj")
 submitHealth.click()
 
-time.sleep(4)
+time.sleep(8)
 
 check=driver.find_element_by_tag_name("label")
 
