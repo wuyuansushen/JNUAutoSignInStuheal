@@ -35,6 +35,10 @@ addrDistrict.select_by_value("") #Your District ID
 
 driver.find_element_by_id('jtxxdz').send_keys("") #Your home location details
 
+#Add Vaccine record.
+vaccine=driver.find_element_by_xpath("//label[contains(text(), '新冠疫苗接种情况')]/../div[1]/span[1]")
+vaccine.click()
+
 checkReal=driver.find_element_by_id("10000")
 checkReal.click()
 
